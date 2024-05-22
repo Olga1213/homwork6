@@ -1,5 +1,4 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 public class Main {
     public static void main(String[] args) {
 
@@ -16,7 +15,7 @@ public class Main {
             System.out.println(i);
         }
         //4
-        for (int i = 10; i >= -10; i = i - 1) {
+        for (int i = 10; i >= -10; i = i --) {
             System.out.println(i);
         }
         //5
@@ -25,11 +24,11 @@ public class Main {
         }
         //6
         for (int i = 7; i <= 98; i = i + 7) {
-            System.out.println(+i);
+            System.out.println(i);
         }
         //7
         for (int i = 1; i <= 512; i = i * 2) {
-            System.out.println(+i);
+            System.out.println(i);
         }
         //8
         int salary = 29000;
@@ -53,7 +52,11 @@ public class Main {
          System.out.println("total");
 }
      //10
-        for (int i = 2; i<=20;i=i*2){
-        System.out.println(+i);
+        for (int i = 1; i<=10;i++){
+        System.out.println("2*"+i+ "="+(2*i));
+        }
+}
+}
+
 
 
